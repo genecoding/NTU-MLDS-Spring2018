@@ -1,4 +1,4 @@
-# NTU-MLDS-Spring2018
+# NTU Machine Learning and Having it Deep and Structured
 My implementation for the homework from the course of National Taiwan University, Machine Learning and Having it Deep and Structured, Spring 2018.
 
 ## Information
