@@ -7,7 +7,7 @@
 * Implement [Sequence to Sequence - Video to Text (S2VT)]
 * Training tips
   - [x] Use word embedding (instead of one-hot encoding)
-  - [x] Attention (although the paper claimed S2VT can work well without attention)
+  - [x] Attention (although the paper claims S2VT can work well without attention)
   - [x] Teacher forcing
   - [ ] Beam search
 ### 2-2 Chatbot
