@@ -16,4 +16,4 @@ My implementation for the homework from the course of National Taiwan University
 
 
 
-[Syllabus]: https://speech.ee.ntu.edu.tw/~hylee/dlhlp/2020-spring.php
+[Syllabus]: https://speech.ee.ntu.edu.tw/~hylee/mlds/2018-spring.php
