@@ -8,7 +8,7 @@ My implementation for the homework from the course of National Taiwan University
 ## Contents
 ### HW2
 * 2-1 Video Caption Generation
-* 2-2 Chat-Bot
+* 2-2 Chatbot
 ### HW3
 * 3-1 Image Generation
 * 3-2 Text-to-Image Generation
