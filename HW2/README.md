@@ -36,7 +36,7 @@
   - [ ] Beam search (to do)
 * Setup
   * Dataset  
-    There are a lot data (dialogue pairs) in this training set, to trim the data: use higher `min_freq`, constrain sentence length, remove pairs contain `<unk>` token(s); 
+    There are a lot of data (dialogue pairs) in this training set, to trim the data: use higher `min_freq`, constrain sentence length, remove pairs contain `<unk>` token(s); 
     also use RandomSampler to sample a fixed amount of data from the whole dataset randomly to shorten training time.
     ```python
     min_freq = 90
