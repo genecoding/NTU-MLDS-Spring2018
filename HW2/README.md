@@ -16,7 +16,7 @@
     ```python
     min_freq = 3
     ```
-  * Other Hyperparameters
+  * Other hyperparameters
     ```python
     VIDEO_FEAT_DIM = 4096
     INPUT_DIM = 200
@@ -24,9 +24,8 @@
     DE_HID_DIM = 1000
     EMB_DIM = 200
     DROPOUT = 0.5
-    
-    num_epochs = 200
     batch_size = 128
+    num_epochs = 200
     ```
 ### 2-2 Chatbot
 * Use sequence-to-sequence model
@@ -36,8 +35,27 @@
   - [x] Teacher forcing
   - [ ] Beam search (to do)
 * Setup
-  * Dataset
-  * Other Hyperparameters
+  * Dataset  
+    There are a lot data (dialogue pairs) in this training set, to trim the data: use higher `min_freq`, constrain sentence length, remove pairs contain `<unk>` token(s); 
+    also use RandomSampler to sample a fixed amount of data from the whole dataset randomly to shorten training time.
+    ```python
+    min_freq = 90
+    MIN_LEN = 2
+    MAX_LEN = 22
+    NUM_TRAIN_SAMPLES = 100000
+    NUM_VALID_SAMPLES = 5000
+    ```
+  * Other hyperparameters
+    ```python
+    EMB_DIM = 1024
+    EN_HID_DIM = 512
+    DE_HID_DIM = 512
+    DROPOUT = 0.5
+    batch_size = 128
+    num_epochs = 200    
+    ```
+
+## Result
 
 ## Reference
 * https://vsubhashini.github.io/s2vt.html
