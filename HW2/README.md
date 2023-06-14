@@ -47,6 +47,7 @@
     ```
   * Other hyperparameters
     ```python
+    num_layers = 2
     EMB_DIM = 1024
     EN_HID_DIM = 512
     DE_HID_DIM = 512
@@ -56,6 +57,28 @@
     ```
 
 ## Result
+Some decent results
+### 2-1 Video Caption Generation
+|video| caption |
+|-----|---------|
+|||
+### 2-2 Chatbot
+```
+input :	把 槍 放下 , 哈維
+output: 哈維,放下槍放下
+
+input :	哈維 , 放下 槍
+output: 我求你哈維,哈維
+
+input :	一個 殘酷 的 世界 裏 , 唯一 的 道德
+output: 就是運氣
+
+input :	我們 採取 了 行動
+output: 我們三個並肩作戰
+
+input :	那麼 失去 了 一切 的 人 , 爲什麼 就 我 一個 ?
+output: 我不能忍受
+```
 
 ## Reference
 * https://vsubhashini.github.io/s2vt.html
