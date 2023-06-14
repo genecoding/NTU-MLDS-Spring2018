@@ -59,9 +59,13 @@
 ## Result
 Some decent results
 ### 2-1 Video Caption Generation
-|video| caption |
-|-----|---------|
-|||
+| video                | caption                        |
+|----------------------|--------------------------------|
+|![0lh_UWF9ZP4_62_69]  | A woman is mixing ingredients. |
+|![7NNg0_n-bS8_21_30]  | A man is singing on a stage.   |
+|![EpMuCrbxE8A_107_115]| A man is playing a guitar.     |
+|![sJSmRik2c-c_1_7]    | A train is going down the road.|
+|![TZ860P4iTaM_15_28]  | A cat is playing a piano.      |
 ### 2-2 Chatbot
 ```
 input :	把 槍 放下 , 哈維
@@ -90,3 +94,8 @@ output: 我不能忍受
 [2-1 Video Caption Generation]: https://docs.google.com/presentation/d/1AeHW6-VDchIbjBXrOPQpXek82L3bi5PR5RapbOhcw94
 [2-2 Chatbot]: https://docs.google.com/presentation/d/1GxaPl3_dGibYTlrg6WlvNTQHS2g4M30I37pVCZsS6tM
 [Sequence to Sequence - Video to Text (S2VT)]: https://vsubhashini.github.io/s2vt.html
+[0lh_UWF9ZP4_62_69]: 2-1/videos/0lh_UWF9ZP4_62_69.gif
+[7NNg0_n-bS8_21_30]: 2-1/videos/7NNg0_n-bS8_21_30.gif
+[EpMuCrbxE8A_107_115]: 2-1/videos/EpMuCrbxE8A_107_115.gif
+[sJSmRik2c-c_1_7]: 2-1/videos/sJSmRik2c-c_1_7.gif
+[TZ860P4iTaM_15_28]: 2-1/videos/TZ860P4iTaM_15_28.gif
