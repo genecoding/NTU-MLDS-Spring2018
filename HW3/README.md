@@ -11,12 +11,11 @@
 * Training tips, apply some of [Tips and tricks to make GANs work]
   * Normalize the inputs
   * A modified loss function
-  * Use a spherical Z (Dont sample from a Uniform distribution, sample from a gaussian distribution)
+  * Use a spherical Z (Dont sample from a Uniform distribution, sample from a gaussian distribution.)
   * BatchNorm
   * Avoid Sparse Gradients: ReLU, MaxPool
-  * DCGAN (Use DCGAN when you can.)
   * Use the ADAM Optimizer
-  * Train discriminator more (sometimes) (WGAN / WGAN-GP)
+  * Train discriminator more (sometimes)
   * Discrete variables in Conditional GANs
 * DCGAN
   * Guidelines from [the paper]
