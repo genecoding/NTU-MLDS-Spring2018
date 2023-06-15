@@ -40,7 +40,7 @@
 * Changes from WGAN to WGAN-GP
   * Remove batch norm from the critic’s architecture.
   * Use gradient penalty instead of weight clipping to enforce the Lipschitz constraint.
-  * Use Adam optimizer (α = 0.0002, β1 = 0.5, β2 = 0.9) instead of RMSProp.
+  * Use Adam optimizer (α = 0.0001, β1 = 0.5, β2 = 0.9) instead of RMSProp.
   * Weight initialization is not necessary.
 
 ## Result
@@ -54,9 +54,11 @@
 |![cgan_original]|
 
 ## Reference
+* [Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks][p1] Alec R. et al
 * https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html
-* [Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks][p1] Radford A. et al
+* [Wasserstein GAN][p2] Martin A. et al
 * https://github.com/martinarjovsky/WassersteinGAN
+* [Improved Training of Wasserstein GANs][p3] Ishaan G. et al
 * https://github.com/igul222/improved_wgan_training
 
 
@@ -67,4 +69,6 @@
 [the paper]: https://arxiv.org/pdf/1511.06434.pdf
 [gan_original]: samples/gan_original.png
 [cgan_original]: samples/cgan_original.png
-[p1]: https://arxiv.org/pdf/1511.06434.pdf
+[p1]: https://arxiv.org/pdf/1511.06434
+[p2]: https://arxiv.org/abs/1701.07875
+[p3]: https://arxiv.org/abs/1704.00028
