@@ -69,6 +69,6 @@
 [the paper]: https://arxiv.org/pdf/1511.06434.pdf
 [gan_original]: samples/gan_original.png
 [cgan_original]: samples/cgan_original.png
-[p1]: https://arxiv.org/pdf/1511.06434
+[p1]: https://arxiv.org/abs/1511.06434
 [p2]: https://arxiv.org/abs/1701.07875
 [p3]: https://arxiv.org/abs/1704.00028
