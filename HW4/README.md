@@ -79,6 +79,7 @@
 * http://karpathy.github.io/2016/05/31/rl/
 * https://github.com/higgsfield/RL-Adventure
 * https://github.com/higgsfield/RL-Adventure-2
+* https://huggingface.co/learn/deep-rl-course/unit0/introduction
 
 
 
