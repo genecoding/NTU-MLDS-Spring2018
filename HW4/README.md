@@ -58,6 +58,9 @@
     ![re412]
     ![re413]
   * DQN & DDDQN
+    ![re421]
+    ![re422]
+    ![re423]
 * Playing video
   * Policy Gradient
   * PPO
@@ -76,3 +79,6 @@
 [re411]: result/re411.png
 [re412]: result/re412.png
 [re413]: result/re413.png
+[re421]: result/re421.png
+[re422]: result/re422.png
+[re423]: result/re423.png
