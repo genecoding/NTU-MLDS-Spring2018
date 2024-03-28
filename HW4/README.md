@@ -67,13 +67,13 @@
   and there is only one environment in this homework, I guess that's why PPO and DDDQN didn't outperform too much here...
 
 * Playing videos
-  |Policy Gradient |PPO         |
-  |----------------|------------|
-  |![pong-pg]      |![pong-ppo] |  
+  |Policy Gradient|PPO        |
+  |---------------|-----------|
+  |![pong-pg]     |![pong-ppo]|  
     
-  |DQN             |DDDQN             |
-  |----------------|------------------|
-  |![breakout-dqn] |![breakout-dddqn] |
+  |DQN            |DDDQN            |
+  |---------------|-----------------|
+  |![breakout-dqn]|![breakout-dddqn]|
   
 ## Reference
 * http://karpathy.github.io/2016/05/31/rl/
