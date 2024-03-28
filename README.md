@@ -13,6 +13,8 @@ My implementation for the homework from the course of National Taiwan University
 * 3-1 Image Generation
 * 3-2 Text-to-Image Generation
 ### HW4
+* 4-1 Policy Gradient
+* 4-2 Deep Q Learning
 
 
 
