@@ -52,7 +52,7 @@
     ```
 
 ## Result
-* Learing curves
+* Learning curves
   * Policy Gradient & PPO  
     (x-axis: episode / y-axis: score)
     ![re411]
@@ -67,12 +67,12 @@
   and there is only one environment in this homework, I guess that's why PPO and DDDQN didn't outperform too much here...
 
 * Playing videos
-  |Policy Gradient|PPO        |
-  |---------------|-----------|
-  |![pong-pg]     |![pong-ppo]|  
+  | Policy Gradient | PPO       |
+  |:---------------:|:---------:|
+  |![pong-pg]       |![pong-ppo]|
     
-  |DQN            |DDDQN            |
-  |---------------|-----------------|
+  | DQN           | DDDQN           |
+  |:-------------:|:---------------:|
   |![breakout-dqn]|![breakout-dddqn]|
   
 ## Reference
