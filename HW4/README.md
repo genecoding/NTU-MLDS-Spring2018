@@ -21,7 +21,7 @@
   * PPO
     ```python
     INPUT_DIM = (80 * 80) * 2
-    OUTPUT_DIM = env.action_space.n (6)
+    OUTPUT_DIM = env.action_space.n  # 6
     HID_DIM = 256
     learning_rate = 1e-3
     num_episodes = 10000
@@ -41,7 +41,7 @@
   * DQN & DDDQN
     ```python
     INPUT_SHAPE = (4, 84, 84)
-    OUTPUT_DIM = env.action_space.n (4)
+    OUTPUT_DIM = env.action_space.n  # 4
     HID_DIM = 512
     BUFFER_SIZE = 10000
     learning_rate = 2.5e-4
@@ -67,15 +67,14 @@
   and there is only one environment in this homework, I guess that's why PPO and DDDQN didn't outperform too much here...
 
 * Playing videos
-  * Policy Gradient  
-    ![pong-pg]
-  * PPO  
-    ![pong-ppo]
-  * DQN  
-    ![breakout-dqn]
-  * DDDQN  
-    ![breakout-dddqn]
-
+  |Policy Gradient |PPO         |
+  |----------------|------------|
+  |![pong-pg]      |![pong-ppo] |  
+    
+  |DQN             |DDDQN             |
+  |----------------|------------------|
+  |![breakout-dqn] |![breakout-dddqn] |
+  
 ## Reference
 * http://karpathy.github.io/2016/05/31/rl/
 * https://github.com/higgsfield/RL-Adventure
