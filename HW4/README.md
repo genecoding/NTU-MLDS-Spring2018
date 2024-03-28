@@ -52,20 +52,29 @@
     ```
 
 ## Result
-* Learing curve
-  * Policy Gradient & PPO
+* Learing curves
+  * Policy Gradient & PPO  
+    (x-axis: episode / y-axis: score)
     ![re411]
     ![re412]
     ![re413]
-  * DQN & DDDQN
+  * DQN & DDDQN  
+    (x-axis: episode / y-axis: clipped score)
     ![re421]
     ![re422]
-    ![re423]
-* Playing video
-  * Policy Gradient
-  * PPO
-  * DQN
-  * DDDQN
+    ![re423]  
+  Surprisely PPO and DDDQN (especially DDDQN) didn't bring significant improvement in this homework. RL models need to see different observations as many as possible during training to perform well,
+  and there is only one environment in this homework, I guess that's why PPO and DDDQN didn't outperform too much here...
+
+* Playing videos
+  * Policy Gradient  
+    ![pong-pg]
+  * PPO  
+    ![pong-ppo]
+  * DQN  
+    ![breakout-dqn]
+  * DDDQN  
+    ![breakout-dddqn]
 
 ## Reference
 * http://karpathy.github.io/2016/05/31/rl/
@@ -82,3 +91,7 @@
 [re421]: result/re421.png
 [re422]: result/re422.png
 [re423]: result/re423.png
+[pong-pg]: result/pong-pg-episode-0.gif
+[pong-ppo]: result/pong-ppo-episode-0.gif
+[breakout-dqn]: result/breakout-dqn-episode-0.gif
+[breakout-dddqn]: result/breakout-dddqn-episode-0.gif
