@@ -63,8 +63,7 @@
     ![re421]
     ![re422]
     ![re423]  
-  Surprisingly PPO and DDDQN (especially DDDQN) didn't bring significant improvement in this homework. RL models need to see different observations as many as possible during training to perform well,
-  and there is only one environment in this homework, I guess that's why PPO and DDDQN didn't outperform too much here...
+  Surprisingly PPO and DDDQN (especially DDDQN) didn't bring significant improvement in this homework. RL models need to see different observations as many as possible during training to perform well, and there is only one worker/environment in this homework, I guess that's why PPO and DDDQN didn't outperform too much here...
 
 * Playing videos
   | Policy Gradient | PPO       |
